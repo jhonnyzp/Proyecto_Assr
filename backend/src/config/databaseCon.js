@@ -1,10 +1,10 @@
-const mysql = require('mysql');
+const mysql = require('mysql2');
 
 module.exports = () => {
     return mysql.createConnection({
         host: '192.168.193.200',
-        user:'root',
-        password: 'root',
-        database:'assr_proy',
+        user:'assr',
+        password: 'assr',
+        database:'assr',
     });
     }
